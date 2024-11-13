@@ -1,11 +1,21 @@
+<!-- cognify/impact_evaluation.html -->
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Impact Evaluation</title>
+    <meta charset="UTF-8">
+    <title>Evaluación de Impacto</title>
 </head>
 <body>
-    <h1>Impact Evaluation</h1>
-    <p>Total Simulations: {{ total_simulations }}</p>
-    <p>Successful Simulations: {{ successful_simulations }}</p>
+    <h1>Evaluación de Impacto de las Simulaciones</h1>
+    <p>Total de Simulaciones Realizadas: {{ total_simulations }}</p>
+    <p>Simulaciones Exitosas: {{ successful_simulations }}</p>
+    <p>Tasa de Éxito: 
+        {% if total_simulations > 0 %}
+            {{ (successful_simulations / total_simulations) | floatformat:2 }}%
+        {% else %}
+            0%
+        {% endif %}
+    </p>
+    <a href="{% url 'criminal_list' %}">Volver a la Lista de Criminales</a>
 </body>
 </html>

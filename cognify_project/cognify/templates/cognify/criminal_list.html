@@ -1,3 +1,4 @@
+<!-- cognify/criminal_list.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,19 +6,32 @@
     <title>Criminal List</title>
 </head>
 <body>
-   <!-- cognify/templates/cognify/criminal_list.html -->
-{% extends 'cognify/base.html' %}
-
-
-{% block content %}
-  <h2>Criminal List</h2>
-  <a href="{% url 'add_criminal' %}">Add New Criminal</a>
-  <ul>
-    {% for criminal in criminals %}
-      <li>{{ criminal.name }} - {{ criminal.crime_type }}</li>
-    {% endfor %}
-  </ul>
-{% endblock %}
-
+    <h1>Criminal List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Crime Type</th>
+                <th>Status</th>
+                <th>Rehabilitation Percentage</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for criminal in criminals %}
+                <tr>
+                    <td>{{ criminal.name }}</td>
+                    <td>{{ criminal.get_crime_type_display }}</td>
+                    <td>{{ criminal.rehabilitation_status }}</td>
+                    <td>{{ criminal.rehabilitation_success_percentage }}%</td>
+                    <td>
+                        <a href="{% url 'run_simulation' criminal.id %}">Run Simulation</a> |
+                        <a href="{% url 'rehabilitate_criminal_with_progress' criminal.id %}">Rehabilitate</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{% url 'add_criminal' %}">Add a New Criminal</a>
 </body>
 </html>
