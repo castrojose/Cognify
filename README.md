@@ -45,7 +45,7 @@ Este proyecto tiene como objetivo aplicar patrones de diseño para mejorar la fu
 │   └── views/              # Vistas del sistema
 ├── tests/                  # Pruebas unitarias y de integración
 └── README.md               # Archivo de presentación del proyecto
-
+```
 ## 📄 Documentación
 
 En esta sección se aborda el análisis del sistema **Cognify** mediante diagramas UML y su impacto social.
