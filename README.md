@@ -25,7 +25,7 @@ Este proyecto tiene como objetivo aplicar patrones de diseño para mejorar la fu
 
 1. **Implementar patrones de diseño** adecuados para la arquitectura de Cognify.
 2. **Optimizar** el sistema mediante la reducción de redundancias y mejora de la escalabilidad.
-3. **Facilitar la comprensión** del código y mejorar su mantenibilidad mediante patrones estructurales, de comportamiento y de creación.
+3. **Facilitar la comprensión** del código y mejorar su mantenibilidad mediante patrones.
 
 ## 📑 Contenido
 
