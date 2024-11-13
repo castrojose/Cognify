@@ -37,15 +37,8 @@ Este proyecto tiene como objetivo aplicar patrones de diseño para mejorar la fu
 
 ## 📂 Estructura del Proyecto
 
-```plaintext
-├── docs/                   # Documentación del proyecto
-├── src/                    # Código fuente
-│   ├── models/             # Modelos de datos
-│   ├── controllers/        # Controladores
-│   └── views/              # Vistas del sistema
-├── tests/                  # Pruebas unitarias y de integración
-└── README.md               # Archivo de presentación del proyecto
-```
+![image](https://github.com/user-attachments/assets/be978f6a-bb38-47a8-89cd-70fe3426d4a4)
+
 ## 📄 Documentación
 
 En esta sección se aborda el análisis del sistema **Cognify** mediante diagramas UML y su impacto social.
