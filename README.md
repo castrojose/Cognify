@@ -31,7 +31,6 @@ Este proyecto tiene como objetivo aplicar patrones de diseño para mejorar la fu
 
 - **Introducción a Cognify y patrones de diseño**
 - **Análisis de los patrones aplicables**
-- **Implementación y ejemplos prácticos**
 - **Conclusiones sobre la aplicación de patrones de diseño**
 
 ---
