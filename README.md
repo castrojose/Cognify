@@ -37,15 +37,8 @@ Este proyecto tiene como objetivo aplicar patrones de diseño para mejorar la fu
 
 ## 📂 Estructura del Proyecto
 
-```plaintext
-├── docs/                   # Documentación del proyecto
-├── src/                    # Código fuente
-│   ├── models/             # Modelos de datos
-│   ├── controllers/        # Controladores
-│   └── views/              # Vistas del sistema
-├── tests/                  # Pruebas unitarias y de integración
-└── README.md               # Archivo de presentación del proyecto
-```
+![image](https://github.com/user-attachments/assets/be978f6a-bb38-47a8-89cd-70fe3426d4a4)
+
 ## 📄 Documentación
 
 En esta sección se aborda el análisis del sistema **Cognify** mediante diagramas UML y su impacto social.
@@ -63,4 +56,5 @@ Los **diagramas UML** (Lenguaje Unificado de Modelado) se utilizan para represen
 El sistema **Cognify** tiene un impacto social significativo al promover la **eficiencia** y **precisión** en la gestión de datos, lo cual facilita la toma de decisiones en entornos complejos. La implementación de buenas prácticas mediante patrones de diseño también contribuye a crear sistemas más accesibles, escalables y sostenibles, apoyando un desarrollo tecnológico responsable.
 
 Para más detalles, consulta la **[Documentación completa](https://docs.google.com/document/d/12H5jyzX_YuERih21ck4q5peER5NUWhJbKXRJrH4FWmQ/edit?tab=t.0.md)**.
+video del funcionamiento del sistema **[aqui]([https://docs.google.com/document/d/12H5jyzX_YuERih21ck4q5peER5NUWhJbKXRJrH4FWmQ/edit?tab=t.0.md](https://drive.google.com/file/d/17casCU1JF2NVEOiH-oyqX8zwlz9x3fKm/view?usp=sharing)**.
 
